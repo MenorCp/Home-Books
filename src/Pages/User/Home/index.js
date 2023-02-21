@@ -1,14 +1,13 @@
 import './index.scss';
 
-import Cabecalho from '../../Components/Cabecalho';
+import Cabecalho001 from '../../Components/Cabeçalho001';
 
 export default function Homepg(){
     return(
         <main className='cont-main-homepg'>
             <section className='cont-cab-homepg'>
-                <Cabecalho/>
+                <Cabecalho001/>
             </section>
-            
         </main>
     )
 }

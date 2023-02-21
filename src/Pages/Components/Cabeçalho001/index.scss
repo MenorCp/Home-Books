@@ -1,0 +1,254 @@
+.cont-main-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: #3A86F8;
+    .cont-logo-hmbk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        height: 100%;
+        
+        .cont-icons-logo{
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            height: 40%;
+            width: 70%;
+
+            .icon-one{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                height: 100%;
+                border-right: 0.5px solid white;
+                
+                .icon-01{
+                    width: 80%;
+                    height: 89%;
+                }
+            }
+            .icon-two{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                height: 100%;
+                
+                .icon-02{
+                    width: 70%;
+                    height: 75%;
+                }
+            }
+        }
+
+        .cont-nm-logo{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 30%;
+            width: 75%;
+            padding-left: 13px;
+
+            .title-logo-cb001{
+                font-size: 26px;
+                color: white;
+                font-weight: 100;
+                margin: 0px;
+                font-family: 'Khula';
+            }
+        }
+    }
+    .cont-desc-cab{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 33%;
+        height: 100%;
+
+        .cont-categorias{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: space-around;
+            width: 23%;
+            height: 22%;
+            padding-right: 7px;
+            border-right: 0.1px solid white;
+
+            .title-categorias-cb001{
+                font-size: 19px;
+                font-family: 'Khula';
+                color: white;
+                font-weight: 100;
+                margin: 0px;
+            }
+        }
+
+        .cont-destaques{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 23%;
+            height: 22%;
+
+            .title-destaques-cb001{
+                font-size: 19px;
+                font-family: 'Khula';
+                font-weight: 100;
+                color: white;
+                margin: 0px;
+            }
+        }
+
+        .cont-novidades{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 24%;
+            height: 22%;
+            border-left: 0.1px solid white;
+
+            .title-novidades-cb001{
+                font-size: 19px;
+                font-family: 'Khula';
+                margin: 0px;
+                color: white;   
+                font-weight: 100;
+            }
+        }
+    }
+    .cont-pesq-cab{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 34%;
+        height: 100%;
+        margin-right: 10px;
+        padding-left: 7px;
+
+        textarea:focus, input:focus, select:focus {
+            box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+        } 
+        ::placeholder{
+            color: #113f84a1;
+        }
+
+        .input-busca-books{
+            background-color: white;
+            border-top-left-radius: 18px;
+            border-bottom-left-radius: 18px;
+            width: 70%;
+            height: 2em;
+            border: 0px;
+            padding-left: 15px;
+            font-size: 17px;
+            color: #113f84;
+        }
+
+        .botao-busca-books{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: #113F84;
+            border: 0px;
+            width: 10.7%;
+            height: 2.7em;
+            border: 0.9px solid #113F84;
+            border-top-right-radius: 18px;
+            border-bottom-right-radius: 18px;
+            cursor: pointer;
+
+            .icon-lupa-cb001{
+                width: 22px;
+                height: 22px;
+                cursor: pointer;
+            }
+        }
+        .botao-busca-books:hover{
+            background-color: #124693aa;
+            border: #113f84b8;
+            transition: 0.5s;
+        }
+    }
+    .cont-login-user{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 16%;
+        height: 100%;
+
+        .login-icon-cb001{
+            width: 44px;
+            height: 44px;
+        }
+
+        .cont-texts-login{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 70%;
+            height: 45%;
+            padding-left: 8px;
+
+            .boas-vindas-cb001{
+                color: #fff;
+                margin: 0px;
+                font-size: 16px;
+                font-weight: 100;
+                font-family: 'Khula';
+            }
+            .cont-login-cadastro{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+                height: max-content;
+                        
+               .login-cb001{
+                    display: flex;
+                    flex-direction: row;
+                    color: #fff;
+                    margin: 0px;
+                    font-size: 16px;
+                    font-weight: 100;
+                    font-family: 'Khula';
+                    margin-right: 3px;
+                }
+                .ou-cb001{
+                    display: flex;
+                    flex-direction: row;
+                    color: #fff;
+                    margin: 0px;
+                    font-size: 16px;
+                    font-weight: 100;
+                    font-family: 'Khula';
+                    margin-right: 3px;
+                }
+                .cadastro-cb001{
+                    font-size: 16px;
+                    font-family: 'Khula';
+                    color: #fff;
+                    font-weight: 100;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
