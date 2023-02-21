@@ -9,4 +9,139 @@
         width: 100%;
         height: 16%;
     }
+
+    .cont-faixa1-hmpg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20em;
+        background-image: url('../../../assets/images/background-faixa1.png');
+
+        .cont-01-faixa1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            width: 40%;
+            height: 20%;
+
+            .title-faixa1{
+                font-size: 27px;
+                font-family: 'Khula';
+                color: #fff;
+                font-weight: 500;
+
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+        }
+        .cont-02-faixa1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            width: 87%;
+            height: 70%;
+
+            .card-01-faixa1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 30%;
+                height: 70%;
+
+                background-color: #228abb85;
+
+                border-radius: 30px;
+
+                .icon-favorito-faixa1{
+                    width: 67px;
+                    height: 73px;
+
+                    margin-right: 9px;
+                }
+
+                .title-favoritos-faixa1{
+                    font-size: 28px;
+                    font-family: 'Khula';
+                    color: #fff;
+                    margin: 0px;
+                    font-weight: 100;
+
+                    height: 1.5em;
+                    margin-bottom: 7px;
+
+                    border-bottom: 0.1px solid white;
+                }
+            }
+            
+            .card-02-faixa1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 30%;
+                height: 70%;
+
+                background-color: #228abb85;
+
+                border-radius: 30px;
+                
+                .biblioteca-icon-faixa1{
+                    width: 65px;
+                    height: 65px;
+
+                    margin-right: 9px;
+                }
+
+                .title-biblioteca-faixa1{
+                    font-size: 28px;
+                    font-family: 'Khula';
+                    color:#fff;
+                    margin: 0px;
+                    font-weight: 100;
+
+                    border-bottom: 0.1px solid #fff;
+                    
+                    height: 1.6em;
+                }
+            }
+
+            .card-03-faixa1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 30%;
+                height: 70%;
+
+                background-color: #228abb85;
+
+                border-radius: 30px;
+
+                .mybooks-icon-faixa1{
+                    width: 61px;
+                    height: 61px;
+
+                    margin-right: 9px;
+                }
+
+                .title-mybooks-faixa1{
+                    font-size: 28px;
+                    font-family: 'Khula';
+                    font-weight: 100;
+                    color: #fff;
+                    margin: 0px;
+
+                    height: 1.6em;
+
+                    border-bottom: 0.1px solid #fff;
+                }
+            }
+        }
+    }
 }
