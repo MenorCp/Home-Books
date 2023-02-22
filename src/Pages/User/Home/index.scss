@@ -1,13 +1,19 @@
 .cont-main-homepg{
-    background-color: #FFCFDB;
+    background-color: #fff;
     width: 100%;
-    height: 100vh;
+    height: max-content;
 
     .cont-cab-homepg{
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 16%;
+        height: 7.4em;
+        position: fixed;
+    }
+
+    .cont-faixa0-hmpg{
+        width: 100%;
+        height: 7.4em;
     }
 
     .cont-faixa1-hmpg{
@@ -142,6 +148,49 @@
                     border-bottom: 0.1px solid #fff;
                 }
             }
+        }
+    }
+
+    .cont-faixa2-hmpg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 24em;
+
+        .cont-title-faixa2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: max-content;
+            height: 3em;
+
+            border-bottom: 0.1px solid #000;
+
+            .title-desc-faixa2{
+                width: max-content;
+                height: 1.4em;
+                font-size: 28px;
+                font-family: 'Khula';
+                font-weight: 600;
+                color: #000;
+                margin: 0px;
+
+                margin-left: 9px;
+            }
+        }
+        .cont-cards-faixa2{
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            height: 80%;
+
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            border: 0.1px solid rebeccapurple;
         }
     }
 }
